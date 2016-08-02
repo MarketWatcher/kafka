@@ -1,8 +1,8 @@
 kafka_cluster:
-  image: spotify/kafka
+  image: ches/kafka
   environment:
-    - ADVERTISED_HOST=marketwatcher.tech
-    - ADVERTISED_PORT=9092
+    - KAFKA_ADVERTISED_HOST_NAME=marketwatcher.tech
+    - KAFKA_ADVERTISED_PORT=9092
   ports:
     - "2181:2181"
     - "9092:9092"
