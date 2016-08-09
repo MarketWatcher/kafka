@@ -1,5 +1,5 @@
 kafka_cluster:
-  image: ches/kafka
+  image: ches/kafka:0.8.2.1
   environment:
     - KAFKA_ADVERTISED_HOST_NAME=marketwatcher.tech
     - KAFKA_ADVERTISED_PORT=9092
